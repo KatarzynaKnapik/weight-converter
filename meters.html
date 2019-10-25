@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://bootswatch.com/4/spacelab/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <div class="container border border-secondary">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h3 class="text-center my-5">Easily convert to other units!</h3>
+                <div class="type text-center pb-5">
+                    <a href="index.html" class="btn btn-warning mx-3">Grams</a>
+                    <a href="meters.html" class="btn btn-warning mx-3">Meters</a>
+                </div>
+                <form class="form-group">
+                    <input id="inputVal" class="form-control gorm-control-lg" type="number" placeholder="Enter nuber of meters ...">
+                </form>
+
+                <div id="output">
+                    <div class="card btn-outline-warning my-3 mt-4">
+                        <div class="card-body d-flex justify-content-end ">
+                            <div id="cmOutput" class="p-2"></div>
+                            <h5 class="p-2"> centimetre</h5>
+                        </div>
+                    </div>
+
+                    <div class="card btn-outline-warning my-3">
+                        <div class="card-body d-flex justify-content-end">
+                            <div id="dmOutput" class="p-2"></div>
+                            <h5 class="p-2"> decimetre</h5>
+                        </div>
+                    </div>
+
+                    <div class="card btn-outline-warning my-3">
+                        <div class="card-body d-flex justify-content-end">
+                            <div id="mmOutput" class="p-2"></div>    
+                            <h5 class="p-2"> milimetre</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<script src="app_2.js"></script>   
+</body>
+</html>
